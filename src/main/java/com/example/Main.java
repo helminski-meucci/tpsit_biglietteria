@@ -79,6 +79,7 @@ public class Main {
                 case "QUIT":
                     out.println("BYE");
                     quit = true;
+                    ss.close();
                     break;
                 default:
                     break;
